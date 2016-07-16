@@ -1,3 +1,5 @@
+This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
+
 The 5W
 ======
 
@@ -26,3 +28,5 @@ I'd like other people could benefit from it too.
 
 5. **Why would you like to perform better?**
 >Because I love my/our job and I am passionate about how to improve it.
+
+[![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
