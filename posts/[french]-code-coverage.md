@@ -1,11 +1,11 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
 
-# Couverture de code
-
 ----------
 This blog post is a french translation of the Martin Fowler's [TestCoverage](http://martinfowler.com/bliki/TestCoverage.html) article, originally published on his [website](http://martinfowler.com/) on April, 17th in 2012.
 
 ----------
+
+# Couverture de code
 
 De temps à autre, j'entends des personnes 1) s'interroger sur quelle devrait être la bonne proportion de couverture de code à atteindre, ou 2) exposer avec fierté leur niveau de couverture de code. Cependant, de telles déclarations passent à côté de l'essentiel. La couverture de code est un outil utile pour trouver quelles parties de votre code ne sont pas testées et a donc peu de valeur pour mesurer à quel point vos tests sont bons.
 
