@@ -3,5 +3,6 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 0. [Readme](https://github.com/Elgolfin/Blog/blob/master/Readme.md)
 1. [The 5W (why yet another blog?)](https://github.com/Elgolfin/Blog/blob/master/posts/the-five-5-whys.md)
 2. [Useful Links - Week of July 18th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-07-18.md)
+2. [Useful Links - Week of July 25th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-07-25.md)
 
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
