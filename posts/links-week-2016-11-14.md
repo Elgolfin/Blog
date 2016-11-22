@@ -4,7 +4,7 @@ Useful Links - Week of November 14th, 2016
 ======
 
 - [grep -Global Regular Expression Print- tutorial (and also egrep and fgrep)](http://www.uccs.edu/~ahitchco/grep/)
-- [sed -Stream EDitor- tutorial](https://www.tutorialspoint.com/sed/sed_workflow.htm)
+- [sed -Stream EDitor- tutorial](http://www.grymoire.com/Unix/Sed.html)
 
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
 
