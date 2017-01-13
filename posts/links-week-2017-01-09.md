@@ -20,4 +20,9 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 - [axios: Test requests by stubbing](https://medium.com/@srph/axios-easily-test-requests-f04caf49e057#.46k3wrybu)
 - [Testing Asynchronous Code with MochaJS and ES7 async/await](http://staxmanade.com/2015/11/testing-asyncronous-code-with-mochajs-and-es7-async-await/)
 
+## About Internationalization
+
+- [Gettext Style i18n for Modern JavaScript Apps](http://messageformat.github.io/Jed/)
+- [Module for negotiating HTTP locales for incoming browser requests](https://github.com/florrain/locale)
+
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
