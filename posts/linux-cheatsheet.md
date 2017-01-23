@@ -16,4 +16,15 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 5. /sbin/service autofs enable (service will start at boot time; # *systemctl list-unit-files* to view systemd services)
 6. /sbin/service autofs restart
 
+# SSH without typing the password
+
+*(file: ssh-to-host.sh)*
+```bash
+#!/usr/bin/expect
+spawn  ssh user@host
+expect "password:"
+send "your_password_in_clear\n";
+interact
+```
+
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
