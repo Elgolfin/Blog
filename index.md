@@ -13,6 +13,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 # Useful Links
 
+- [Useful Links - Week of January 23th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-23.md)
 - [Useful Links - Week of January 16th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-16.md)
 - [Useful Links - Week of January 9th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-09.md)
 - [Useful Links - Week of January 2nd, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-02.md)
