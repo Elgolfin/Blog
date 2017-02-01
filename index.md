@@ -7,21 +7,22 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 # Cheatsheets
 
-- [Git Cheatsheet](https://github.com/Elgolfin/Blog/blob/master/posts/cheatsheet-git.md)
-- [Linux Cheatsheet](https://github.com/Elgolfin/Blog/blob/master/posts/cheatsheet-linux.md)
-- [Visual Studio Code Cheatsheet](https://github.com/Elgolfin/Blog/blob/master/posts/cheatsheet-vscode.md)
+- [Git Cheatsheet](https://github.com/Elgolfin/Blog/blob/master/posts/cheatsheets/cheatsheet-git.md)
+- [Linux Cheatsheet](https://github.com/Elgolfin/Blog/blob/master/posts/cheatsheets/cheatsheet-linux.md)
+- [Visual Studio Code Cheatsheet](https://github.com/Elgolfin/Blog/blob/master/posts/cheatsheets/cheatsheet-vscode.md)
 
 # Useful Links
 
-- [Useful Links - Week of January 23th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-23.md)
-- [Useful Links - Week of January 16th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-16.md)
-- [Useful Links - Week of January 9th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-09.md)
-- [Useful Links - Week of January 2nd, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2017-01-02.md)
-- [Useful Links - Week of December 26th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-12-26.md)
-- [Useful Links - Week of November 14th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-11-14.md)
-- [Useful Links - Week of August 8th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-08-08.md)
-- [Useful Links - Week of August 1st, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-08-01.md)
-- [Useful Links - Week of July 25th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-07-25.md)
-- [Useful Links - Week of July 18th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/links-week-2016-07-18.md)
+- [Useful Links - Week of January 30th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-01-30.md)
+- [Useful Links - Week of January 23th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-01-23.md)
+- [Useful Links - Week of January 16th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-01-16.md)
+- [Useful Links - Week of January 9th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-01-09.md)
+- [Useful Links - Week of January 2nd, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-01-02.md)
+- [Useful Links - Week of December 26th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-12-26.md)
+- [Useful Links - Week of November 14th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-11-14.md)
+- [Useful Links - Week of August 8th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-08-08.md)
+- [Useful Links - Week of August 1st, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-08-01.md)
+- [Useful Links - Week of July 25th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-07-25.md)
+- [Useful Links - Week of July 18th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-07-18.md)
 
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)

@@ -1,6 +1,9 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
 
 # Config
+
+## Linux based
+
 ***.git/config***
 ```config
 [core]
@@ -17,9 +20,17 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
   cmd = code --wait --new-window --diff $LOCAL $REMOTE
 [user]
   name = Elgolfin
-  email = nico@elgolfin.net
+  email = <email>
 [credential]
   helper = cache --timeout=36000
+```
+
+## Windows based
+
+***.gitconfig***
+```config
+[credential]
+  helper = wincred
 ```
 
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
