@@ -52,7 +52,7 @@ yum install gparted
 yum install ntfsprogs
 ```
 
-# GParted
+# rsync
 
 ```bash
 rsync -av --delete ~/Documents/dir /dest_dir
