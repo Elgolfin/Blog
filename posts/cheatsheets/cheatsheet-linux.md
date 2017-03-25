@@ -1,6 +1,6 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
 
-# SMB Mount
+# SMB Mount4 po
 
 1. cd /mnt
 2. mkdir *dest*
@@ -50,6 +50,12 @@ hostname -f 2>/dev/null
 yum install epel-release
 yum install gparted
 yum install ntfsprogs
+```
+
+# GParted
+
+```bash
+rsync -av --delete ~/Documents/dir /dest_dir
 ```
 
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
