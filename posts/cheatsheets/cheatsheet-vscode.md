@@ -9,12 +9,13 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
   "files.autoSave": "onFocusChange",
   "editor.cursorStyle": "line",
   "editor.rulers": [50, 72, 80],
-  "editor.wordWrap": true,
+  "editor.wordWrap": "on",
   "editor.cursorBlinking": "smooth",
   "editor.renderWhitespace": "boundary",
   "workbench.sideBar.location": "right",
   "window.restoreFullscreen": true,
-  "window.showFullPath": true
+  "workbench.iconTheme": "vs-seti",
+  "workbench.colorTheme": "Abyss"
 }
 ```
 
