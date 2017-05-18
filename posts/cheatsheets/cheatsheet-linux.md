@@ -55,7 +55,66 @@ yum install ntfsprogs
 # rsync
 
 ```bash
-rsync -av --delete ~/Documents/dir /dest_dir
+rsync -avz --delete ~/Documents/dir /dest_dir
+```
+# Setup a Wifi network
+
+## Find out the wireless name
+
+```bash
+$ iw dev
+```
+## Check if the device is up
+
+```bash
+$ ip link show <device_name>
+```
+*(Look for the word "UP" inside the brackets in the first line of the output. )*
+
+In case it is needed to put the device up
+```bash
+$ sudo ip link set <device_name> up
+```
+## Check the connection status
+```bash
+$ iw <device_name> link
+```
+
+## Scan to find out what WiFi network(s) are detected 
+
+```bash
+$ sudo /sbin/iw <device_name> scan
+```
+
+## Connect to WPA/WPA2 WiFi network. 
+```bash
+$ sudo -s
+[sudo] password for peter: 
+$ wpa_passphrase <SSID> >> /etc/wpa_supplicant.conf 
+...type in the passphrase and hit enter...
+
+$ sudo wpa_supplicant -B -D wext -i <device_name> -c /etc/wpa_supplicant.conf
+```
+
+## Obtain IP address from DHCP
+```bash
+$ sudo dhclient wlan0
+
+# Use the ip command to verify the IP address assigned by DHCP.
+$ ip addr show wlan0
+```
+
+## Add default routing rule
+
+```bash
+ip route show
+$ sudo ip route add default via 192.168.1.254 dev wlan0
+```
+
+
+## Ping external IP address to test the connectivity
+```bash
+ping 8.8.8.8
 ```
 
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
