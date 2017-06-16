@@ -16,6 +16,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 
 # Useful Links
 
+- [Useful Links - Week of June 212h, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-06-12.md)
 - [Useful Links - Week of April 24th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-04-24.md)
 - [Useful Links - Week of April 10th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-04-10.md)
 - [Useful Links - Week of March 30th, 2017](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2017-03-20.md)
