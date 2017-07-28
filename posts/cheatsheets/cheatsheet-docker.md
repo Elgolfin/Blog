@@ -6,14 +6,14 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 docker run -i -t debian:latest /bin/bash
 ```
 
-# CLean-up files
+# Clean-up files
 ```
   docker stop $(docker ps -a -q) # Stop the running containers
   docker rm $(docker ps -a -q)   # Remove the containers
   docker rmi $(docker images -q) # Remove the images from the local machine
 ```
 
-# Postgres DOcker Image
+# Postgres Docker Image
 ```
 # Run the Postgres DOcker Instance with a password
 docker run --name posgtres -h postgres -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=myuser -e POSTGRES_DB=mydatabase -d -p 127.0.0.1:5445:5432 postgres
