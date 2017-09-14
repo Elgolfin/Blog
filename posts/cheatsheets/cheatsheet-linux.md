@@ -57,6 +57,18 @@ yum install ntfsprogs
 ```bash
 rsync -avz --delete ~/Documents/dir /dest_dir
 ```
+
+# Create a swap file
+
+```bash
+fallocate -l 4G /swapfile
+chmod 600 /swapfile
+mkswap /swapfile
+swapon /swapfile
+swapon -s
+free -m
+```
+
 # Setup a Wifi network
 
 ## Find out the wireless name
