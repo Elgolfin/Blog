@@ -33,4 +33,12 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
   helper = wincred
 ```
 
+# Configure multiple remote repo
+
+```bash
+git remote add all <repo_address_1>
+git remote set-url --add --push all <repo_address_2>
+git remote set-url --add --push all <repo_address_1>
+```
+
 [![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
