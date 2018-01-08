@@ -61,13 +61,25 @@ rsync -avz --delete ~/Documents/dir /dest_dir
 # Create a swap file
 
 ```bash
-fallocate -l 4G /swapfile
+# fallocate -l 4G /swapfile
+dd if=/dev/zero of=/swapfile count=4096 bs=1MiB
 chmod 600 /swapfile
 mkswap /swapfile
 swapon /swapfile
 swapon -s
 free -m
 ```
+
+The problem with fallocate(1) is that it uses filesystem ioctls to make the allocation fast and effective, the disadvantage is that it does not physically allocate the space but swapon(2) syscall requires a real space. Reference : https://bugzilla.redhat.com/show_bug.cgi?id=1129205
+
+So instead of using fallocate, use dd
+
+To enable it at boot time, edit /etc/fstab to include the following entry: 
+```
+/swapfile swap swap defaults 0 0
+```
+
+Ref: https://www.centos.org/docs/5/html/5.2/Deployment_Guide/s2-swap-creating-file.html
 
 # Setup a Wifi network
 
