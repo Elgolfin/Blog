@@ -1,5 +1,14 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
 
+# Build and publish a Docker image
+
+```bash
+docker build -t hiyafoo/centos-dotnet .
+docker login
+docker tag hiyafoo/centos-dotnet hiyafoo/centos-dotnet:latest
+docker push hiyafoo/centos-dotnet:latest
+```
+
 # Run a bash in a docker image (here debian) for testing purposes
 
 ```bash
@@ -15,7 +24,7 @@ docker run -i -t debian:latest /bin/bash
 
 # Postgres Docker Image
 ```
-# Run the Postgres DOcker Instance with a password
+# Run the Postgres Docker Instance with a password
 docker run --name posgtres -h postgres -e POSTGRES_PASSWORD=mysecretpassword -e POSTGRES_USER=myuser -e POSTGRES_DB=mydatabase -d -p 127.0.0.1:5445:5432 postgres
 # Run the Postgres DOcker Instance in trust mode
 docker run --name posgtres -h postgres -e POSTGRES_USER=myuser -e POSTGRES_DB=mydatabase -d -p 127.0.0.1:5445:5432 postgres
