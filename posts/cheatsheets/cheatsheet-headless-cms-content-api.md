@@ -1,5 +1,16 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
 
+# Headless CMS / Content API
+
+In a nutshell, it's a CMS with an API.  
+For a longer explanation, please refer to [What is a headless CMS?](https://prismic.io/headless-cms-intro)
+
+Main advantages:
+* Technologic agnostic (it's API oriented, you can use whatever technology you like to consume your content)
+* Content can be used by your website front-end as well all others applications you want (i.e. native mobile application)
+
+## Comparaison of two popular CMS content API
+
 | Features |[Contentful](https://www.contentful.com/)|[Prismic](https://prismic.io/)|
 |---|:---:|:---:|
 |Multi-Tenant| ✓<sup>[1](#ref1)</sup> | |
