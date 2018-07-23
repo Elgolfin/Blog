@@ -37,3 +37,8 @@ Sub PasswordBreaker()
     Next: Next: Next: Next: Next: Next
 End Sub
 ```
+
+# Excel Tutorial
+
+[Excel tutorial](https://www.commentcamarche.com/contents/excel-tableur-1992167239)
+[Exemple de TP/Exam](https://www.excel-university.com/excel-formula-to-allocate-an-amount-into-monthly-columns/)
