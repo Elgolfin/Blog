@@ -1,9 +1,10 @@
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
+This work is licensed under a
+[Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
 # About this blog
 
-0. [Readme](https://github.com/Elgolfin/Blog/blob/master/Readme.md)
-1. [The 5W (why yet another blog?)](https://github.com/Elgolfin/Blog/blob/master/posts/the-five-5-whys.md)
+1. [Readme](https://github.com/Elgolfin/Blog/blob/master/Readme.md)
+2. [The 5W (why yet another blog?)](https://github.com/Elgolfin/Blog/blob/master/posts/the-five-5-whys.md)
 
 # Cheatsheets
 
@@ -51,4 +52,4 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 - [Useful Links - Week of July 25th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-07-25.md)
 - [Useful Links - Week of July 18th, 2016](https://github.com/Elgolfin/Blog/blob/master/posts/useful-links/links-week-2016-07-18.md)
 
-[![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
+[![creativecommons image](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
