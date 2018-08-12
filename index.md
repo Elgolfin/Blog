@@ -5,6 +5,7 @@ This work is licensed under a
 
 1. [Readme](https://github.com/Elgolfin/Blog/blob/master/Readme.md)
 2. [The 5W (why yet another blog?)](https://github.com/Elgolfin/Blog/blob/master/posts/the-five-5-whys.md)
+3. [Cook like a chef](./posts/cook-like-a-chef/index.md)
 
 # Cheatsheets
 
