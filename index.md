@@ -19,6 +19,7 @@ This work is licensed under a
 
 # Useful Links
 
+- [Useful Links - Week of August 13th, 2018](./posts/useful-links/links-week-2018-08-13.md)
 - [Useful Links - Week of July 9th, 2018](./posts/useful-links/links-week-2018-07-09.md)
 - [Useful Links - Week of June 25th, 2018](./posts/useful-links/links-week-2018-06-25.md)
 - [Useful Links - Week of June 11th, 2018](./posts/useful-links/links-week-2018-06-11.md)
