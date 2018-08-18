@@ -1,7 +1,7 @@
 This work is licensed under a
 [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
 
-# About this blog
+# About This Blog
 
 1. [Readme](./Readme.md)
 2. [The 5W (why yet another blog?)](./posts/the-five-5-whys.md)
