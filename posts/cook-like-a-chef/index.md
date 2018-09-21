@@ -11,4 +11,8 @@ This work is licensed under a
 
 * [Galette des rois](./galette-des-rois.md)
 
+## M
+
+* [Mayonnaise](./mayonnaise.md)
+
 [![creativecommons image](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
