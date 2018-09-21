@@ -7,7 +7,7 @@ Vu sur [marmiton.org](https://www.marmiton.org/recettes/recette_bechamel-rapide-
 
 ## Ingrédients
 
-1. 25cl de lait
+1. 25cl (1 tasse) de lait
 2. 20g de beurre
 3. 2 cuillères à soupe de farine
 4. Sel
@@ -17,7 +17,7 @@ Vu sur [marmiton.org](https://www.marmiton.org/recettes/recette_bechamel-rapide-
 ## Préparation
 
 1. Dans un grand récipient, faire fondre le beurre 1 minute au micro-ondes.  
-   Le sortir et ajouter la farine en remuant bien. 
+   Le sortir et ajouter la farine en remuant bien.
 2. Porter le lait à ébullition, le laisser bouillir quelques instants.
 3. Verser le lait sur le mélange farine/beurre en fouettant. Assaisonner.
 4. Remettre le tout au micro-ondes pendant 1 minute.
