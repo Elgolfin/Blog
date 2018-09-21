@@ -4,6 +4,8 @@ This work is licensed under a
 Useful Links - Week of September 17th, 2018
 ======
 
+- [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions)
+
 - [Working offline](https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Offline)
 - [localForage](https://github.com/localForage/localForage)
 - [Offline.js](http://github.hubspot.com/offline/docs/welcome/)
