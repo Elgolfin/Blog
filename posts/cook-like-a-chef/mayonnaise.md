@@ -3,8 +3,6 @@ This work is licensed under a
 
 # Mayonnaise
 
-Vu sur [marmiton.org](https://www.marmiton.org/recettes/recette_bechamel-rapide-et-facile_14764.aspx)
-
 ## Ingrédients
 
 1. 1 jaune d'oeuf
