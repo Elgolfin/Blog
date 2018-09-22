@@ -6,6 +6,7 @@ Useful Links - Week of September 17th, 2018
 
 - [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions)
 
+- [Create Offline Web Apps Using Service Workers & PouchDB](https://www.sitepoint.com/offline-web-apps-service-workers-pouchdb/)
 - [Working offline](https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Offline)
 - [localForage](https://github.com/localForage/localForage)
 - [Offline.js](http://github.hubspot.com/offline/docs/welcome/)
