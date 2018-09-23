@@ -6,6 +6,7 @@ Useful Links - Week of September 17th, 2018
 
 - [NodeSource Node.js Binary Distributions](https://github.com/nodesource/distributions)
 
+- [10 Progressive Web App Examples that Brand Owners can Learn From](https://www.iflexion.com/blog/10-progressive-web-app-examples-brand-owners-can-learn/)
 - [Create Offline Web Apps Using Service Workers & PouchDB](https://www.sitepoint.com/offline-web-apps-service-workers-pouchdb/)
 - [Working offline](https://developer.mozilla.org/en-US/docs/Web/Apps/Fundamentals/Offline)
 - [localForage](https://github.com/localForage/localForage)
