@@ -4,11 +4,11 @@ This work is licensed under a
 # Capitalization in Titles
 
 * As seen in [Writer's Block](http://web.archive.org/web/20130117225252/http://writersblock.ca/tips/monthtip/tipmar98.htm)  
-  ©2009 All text and graphics in Writer’s Block are protected by copyright.
-ISSN: 1488-4801
+  ©2009 All text and graphics in Writer’s Block are protected by copyright.  
+  ISSN: 1488-4801
 * Reformatted here in markdown
 
-NIVA follows the general rules for capitalizing words in document titles 
+NIVA follows the general rules for capitalizing words in document titles
 set out in The Chicago Manual of Style
 (with one minor exception—see the note in rule 3):
 
