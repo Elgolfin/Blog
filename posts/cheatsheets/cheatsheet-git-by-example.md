@@ -52,6 +52,23 @@ do
 done
 ```
 
+```bash
+# Shows all objects that aren't pointed to by another object
+git fsck --full
+```
+
+```bash
+# See how much space is used by a repo
+git count-objects -v
+```
+
+```bash
+# Find the 3 largest files in a pack
+git verify-pack -v .git/objects/pack/<packfilename>.idx \
+  | sort -k 3 -n \
+  | tail -3
+```
+
 ## Rebase and Merge Strategy by Example
 
 ```bash
