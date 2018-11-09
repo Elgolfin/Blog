@@ -96,7 +96,14 @@ git rebase master features/feature-1 --keep-empty
 git lg
 
 # Merge master with the feature branch with no fast-forward
-# This way, a merge commit will be kept for historical reason with the name of the merged branch
+#
+# This way, a merge commit will be kept for historical reason
+# with the name of the merged branch
+#
+# However, git bisect will not work as expected
+# and git rebase -i head~n could grab more commits than needed
+#
+# See Stack Overflow link below
 git checkout master
 git merge features/feature-1 --no-ff
 
@@ -107,5 +114,10 @@ git branch -d features/feature-1
 
 git lg
 ```
+
+## About merging and fast-forwarding
+
+- [Fast-forward merging explanation on Stack Overflow](https://stackoverflow.com/questions/2850369/why-does-git-fast-forward-merges-by-default#2850413)
+- [Whatʼs a Fast Forward Merge?](./fast-forward.pdf)
 
 [![creativecommons image](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)

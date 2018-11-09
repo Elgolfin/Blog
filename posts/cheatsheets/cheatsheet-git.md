@@ -5,6 +5,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 ## Linux based
 
 ***.git/config***
+
 ```config
 [core]
   repositoryformatversion = 0
@@ -28,6 +29,7 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 ## Windows based
 
 ***.gitconfig***
+
 ```config
 [credential]
   helper = wincred
