@@ -20,7 +20,8 @@ This work is licensed under a
 
 # Useful Links
 
-- [Useful Links - Week of January 21th, 2018](./posts/useful-links/links-week-2019-01-21.md)
+- [Useful Links - Week of January 27th, 2019](./posts/useful-links/links-week-2019-01-27.md)
+- [Useful Links - Week of January 21th, 2019](./posts/useful-links/links-week-2019-01-21.md)
 - [Useful Links - Week of December 24th, 2018](./posts/useful-links/links-week-2018-12-24.md)
 - [Useful Links - Week of December 10th, 2018](./posts/useful-links/links-week-2018-12-10.md)
 - [Useful Links - Week of October 1st, 2018](./posts/useful-links/links-week-2018-10-01.md)
