@@ -20,10 +20,15 @@ This work is licensed under a
 
 # Useful Links
 
+## [2019]
+
 - [Useful Links - Week of February 11th, 2019](./posts/useful-links/links-week-2019-02-11.md)
 - [Useful Links - Week of February 4th, 2019](./posts/useful-links/links-week-2019-02-04.md)
 - [Useful Links - Week of January 27th, 2019](./posts/useful-links/links-week-2019-01-27.md)
 - [Useful Links - Week of January 21th, 2019](./posts/useful-links/links-week-2019-01-21.md)
+
+## [2018]
+
 - [Useful Links - Week of December 24th, 2018](./posts/useful-links/links-week-2018-12-24.md)
 - [Useful Links - Week of December 10th, 2018](./posts/useful-links/links-week-2018-12-10.md)
 - [Useful Links - Week of October 1st, 2018](./posts/useful-links/links-week-2018-10-01.md)
@@ -38,6 +43,9 @@ This work is licensed under a
 - [Useful Links - Week of April 16th, 2018](./posts/useful-links/links-week-2018-04-16.md)
 - [Useful Links - Week of February 26th, 2018](./posts/useful-links/links-week-2018-02-26.md)
 - [Useful Links - Week of January 15th, 2018](./posts/useful-links/links-week-2018-01-15.md)
+
+## [2017]
+
 - [Useful Links - Week of December 5th, 2017](./posts/useful-links/links-week-2017-12-05.md)
 - [Useful Links - Week of August 21th, 2017](./posts/useful-links/links-week-2017-08-21.md)
 - [Useful Links - Week of July 17th, 2017](./posts/useful-links/links-week-2017-07-17.md)
@@ -56,6 +64,9 @@ This work is licensed under a
 - [Useful Links - Week of January 16th, 2017](./posts/useful-links/links-week-2017-01-16.md)
 - [Useful Links - Week of January 9th, 2017](./posts/useful-links/links-week-2017-01-09.md)
 - [Useful Links - Week of January 2nd, 2017](./posts/useful-links/links-week-2017-01-02.md)
+
+## [2016]
+
 - [Useful Links - Week of December 26th, 2016](./posts/useful-links/links-week-2016-12-26.md)
 - [Useful Links - Week of November 14th, 2016](./posts/useful-links/links-week-2016-11-14.md)
 - [Useful Links - Week of August 8th, 2016](./posts/useful-links/links-week-2016-08-08.md)
