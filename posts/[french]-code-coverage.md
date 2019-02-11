@@ -45,4 +45,4 @@ Brian Marick a écrit un excellent article sur [l'usage abusif de la couverture 
 <sup id="f1">[1]</sup> Par "vous" je veux dire les personnes qui écrivent les tests. 
 La couverture de code a peu de valeur pour le management puisqu'il est nécessaire d'avoir un background technique pour comprendre que soit la qualité des tests est bonne, soit le code non couvert est la source du problème. [↩](#a1)
 
-[![enter image description here](https://i.creativecommons.org/l/by-sa/4.0/80x15.png) ](http://creativecommons.org/licenses/by-sa/4.0/)
+[![creativecommons image](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
