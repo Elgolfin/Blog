@@ -12,7 +12,8 @@ by [Tim Berglund](https://github.com/tlberglund)
 
 ```bash
 [alias]
-  lg = !"git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $*"
+  lg = !"git --no-pager lg1 -n 55"
+  lga = !"git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $*"
   lg1 = !"git lg1-specific --all"
   lg2 = !"git lg2-specific --all"
   lg3 = !"git lg3-specific --all"
