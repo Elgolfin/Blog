@@ -8,5 +8,6 @@ Useful Links - Week of February 11th, 2019
 - [Gibson Research Corporation](https://www.grc.com/)
 - [How Big is Your Haystack?](https://www.grc.com/haystack.htm)
 - [Dig Web Interface - DNS](https://www.digwebinterface.com/)
+- [AFP Fact Check](https://factcheck.afp.com/)
 
 [![creativecommons image](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
