@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+# Create a dummy commit with one md file with 3 lines of text
+create_commit () {
+  content="c$1"
+  file_name=$content
+  echo "$content" > $file_name.md
+  echo "$content" >> $file_name.md
+  echo "$content" >> $file_name.md
+  commit_message="Add the commit #$1"
+  git add . && git commit -m "$commit_message"
+}
+
+create_commit $1

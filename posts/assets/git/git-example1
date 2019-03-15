@@ -1,0 +1,30 @@
+#!/usr/bin/env bash
+
+git-reinit
+
+git-createcommit 1
+git-createcommit 2
+git-createcommit 3
+
+# Create a branch feature
+git checkout -b feature-1
+
+# Change the c1.md file on the master branch
+git checkout master
+echo c1 > c1.md
+echo c4 >> c1.md
+echo c1 >> c1.md
+git add . && git commit -m "Add the commit #4"
+
+# Change the c1.md file on the feature branch
+git checkout feature-1
+echo c1 > c1.md
+echo c5 >> c1.md
+echo c1 >> c1.md
+git add . && git commit -m "Add the commit #5"
+
+# Then
+# git rebase dev
+# Merge the file
+# git checkout master
+# merge feature-1 (could also add the --no-ff flag)

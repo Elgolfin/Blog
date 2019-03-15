@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+# Reset a repo
+# 1. delete all the files from the working area
+# 2. delete the .git folder
+# 3. Init a new repo
+rm -rf *
+rm -rf .git
+git init
