@@ -12,7 +12,7 @@ by [Tim Berglund](https://github.com/tlberglund)
 
 ```bash
 [alias]
-  cleanup-branches = !"b=`git branch | grep -Ev 'master|dev|release|manager-readme'`; if [ `echo $b | wc -l` -gt 0 ]; then git branch | grep -Ev 'master|dev|release|manager-readme' | xargs git branch -D; else echo 'No branch to delete'; fi;"
+  cleanup-branches = !"b=`git branch | grep -Ev 'master|dev|release|manager-readme'`; if [ $? -eq 0 ] && [ `echo $b | wc -l` -gt 0 ]; then git branch | grep -Ev 'master|dev|release|manager-readme' | xargs git branch -D; else echo 'No branch to delete'; fi;"
   lg = !"git --no-pager lg1 -n 55"
   lga = !"git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $*"
   lg1 = !"git lg1-specific --all"
