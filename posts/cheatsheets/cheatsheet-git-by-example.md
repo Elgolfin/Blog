@@ -58,6 +58,8 @@ done
 ```bash
 # Shows all objects that aren't pointed to by another object
 git fsck --full
+
+git fsck --lost-found
 ```
 
 ```bash
