@@ -23,6 +23,7 @@ This work is licensed under a
 ## [2019]
 
 - [Useful Links - Week of May 27th, 2019](./posts/useful-links/links-week-2019-05-27.md)
+- [Useful Links - Week of September 30th, 2019](./posts/useful-links/links-week-2019-09-30.md)
 - [Useful Links - Week of March 18th, 2019](./posts/useful-links/links-week-2019-03-18.md)
 - [Useful Links - Week of February 25th, 2019](./posts/useful-links/links-week-2019-02-25.md)
 - [Useful Links - Week of February 18th, 2019](./posts/useful-links/links-week-2019-02-18.md)
