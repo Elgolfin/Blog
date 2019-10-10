@@ -12,6 +12,7 @@ by [Tim Berglund](https://github.com/tlberglund)
 
 ```bash
 [alias]
+  mergenpush = !"git fetch --prune && git checkout dev && git merge && git checkout master && git merge && git push && git push github ; git checkout release && git merge master && git push && git checkout dev"
   cleanup-branches = !"b=`git branch | grep -Ev 'master|dev|release|manager-readme'`; if [ $? -eq 0 ] && [ `echo $b | wc -l` -gt 0 ]; then git branch | grep -Ev 'master|dev|release|manager-readme' | xargs git branch -D; else echo 'No branch to delete'; fi;"
   lg = !"git --no-pager lg1 -n 55"
   lga = !"git --no-pager log --graph --pretty=oneline --abbrev-commit --decorate --all $*"
