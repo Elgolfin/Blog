@@ -1,3 +1,5 @@
+# On vacation. Robots are taking over. Be warned.
+
 [Name] is away from the office and will be returning on Monday, August 19th.
 
 Email contact during this time may be irregular or nonexistent.
