@@ -16,7 +16,21 @@ This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 Inter
 5. /sbin/service autofs enable (service will start at boot time; # *systemctl list-unit-files* to view systemd services)
 6. /sbin/service autofs restart
 
-# SSH without typing the password
+# SSH
+
+## Common
+
+Generate the public key from the private key
+```bash
+ssh-keygen -y -f ~/.ssh/id_rsa > ~/.ssh/id_rsa.pub
+```
+
+Get the MD5 signature of an SSH key
+```bash
+ssh-keygen -lf ~/.ssh/id_rsa -E md5
+```
+
+## SSH without typing the password
 
 *(file: ssh-to-host.sh)*
 ```bash
