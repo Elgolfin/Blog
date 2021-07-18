@@ -18,6 +18,11 @@ https://pcbshopper.com/
 http://builder.swillkb.com/
 https://www.wasdkeyboards.com/index.php/
 https://www.reddit.com/r/MechanicalKeyboards/wiki/index
+https://switchandclick.com/where-to-find-keycaps-the-best-websites-to-buy-keycaps-from/
+https://www.switchtop.com/about
+https://github.com/FreeCAD/FreeCAD-library
+https://github.com/w4ilun/pocket-keyboard
+https://shockport.com/collections/switches/products/cherry-mx-red?variant=37684506558629
 
 
 
