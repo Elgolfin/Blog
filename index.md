@@ -20,6 +20,10 @@ This work is licensed under a
 
 # Useful Links
 
+## [2021]
+
+- [Useful Links - Week of July 21th, 2021](./posts/useful-links/links-week-2021-07-21.md)
+
 ## [2020]
 
 - [Useful Links - Week of February 24th, 2020](./posts/useful-links/links-week-2020-02-24.md)
