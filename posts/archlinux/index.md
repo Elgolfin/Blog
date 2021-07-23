@@ -86,7 +86,7 @@ Also see:
 - [GNU Parted User Manual](https://www.gnu.org/software/parted/manual/html_node/index.html)
 
 ```bash
-# Repalce sda with the right disk label
+# Replace sda with the right disk label
 
 # Fill the disk with random data
 shred --random-source=/dev/urandom --iterations=1 /dev/sda # replace sda by the targerted disk
