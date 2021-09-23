@@ -7,7 +7,8 @@ This work is licensed under a
 
 ## Installation Steps
 
-> https://archlinux.org/download/
+> https://archlinux.org/download/  
+> https://wiki.archlinux.org/title/USB_flash_installation_medium
 
 ### Download ISO and create the USB bootable key
 
