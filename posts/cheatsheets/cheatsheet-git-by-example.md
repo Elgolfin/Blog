@@ -75,6 +75,18 @@ git verify-pack -v .git/objects/pack/<packfilename>.idx \
   | tail -3
 ```
 
+```bash
+# For files changed between a given SHA and your current commit
+git diff --name-only <starting SHA> HEAD
+
+# Include changed-but-not-yet-committed files
+git diff --name-only <starting SHA>
+
+# More generally, the following syntax will always tell you which files changed between two commits (specified by their SHAs or other names):
+git diff --name-only <commit1> <commit2>
+
+```
+
 ## Rebase and Merge Strategy by Example
 
 ```bash
