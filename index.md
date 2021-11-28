@@ -22,6 +22,7 @@ This work is licensed under a
 
 ## [2021]
 
+- [Useful Links - Week of November 22th, 2021](./posts/useful-links/links-week-2021-11-22.md)
 - [Useful Links - Week of July 21th, 2021](./posts/useful-links/links-week-2021-07-21.md)
 
 ## [2020]
