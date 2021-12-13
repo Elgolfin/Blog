@@ -60,8 +60,8 @@ let g:airline_powerline_fonts = 1
 "
 
 set t_Co=256
-colorscheme molokai
-let g:airline_theme='molokai'
+"colorscheme molokai
+"let g:airline_theme='molokai'
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#whitespace#enabled = 0
 
