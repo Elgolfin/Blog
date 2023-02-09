@@ -20,7 +20,7 @@ EOF
 
 # Set the keyboard layout
 cat <<EOF >/etc/vconsole.conf
-KEYMAP=us-actenos
+KEYMAP=us-acentos
 EOF
 
 # Set the hostname
