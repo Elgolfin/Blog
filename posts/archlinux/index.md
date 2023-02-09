@@ -172,7 +172,7 @@ vim /etc/locale.conf
 # Set the keyboard layout
 vim /etc/vconsole.conf
 ```
-> KEYMAP=us-actenos
+> KEYMAP=us-acentos
 
 ```bash
 # Set the hostname
