@@ -66,7 +66,11 @@ vim SSID\ S.8021x # Add the below content to the file; example as been provided 
 > EAP-Password=*password*  
 > 
 > [Settings]  
-> AutoConnect=True  
+> AutoConnect=True
+
+```bash
+iwctl station wlan0 connect SSID\ S
+```
 
 ### Configure the system clock
 
