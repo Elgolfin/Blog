@@ -17,5 +17,8 @@ Name=enp1s*
 DHCP=yes
 EOF
 
+# networkctl list
+# networkctl --help
+
 # Manually configure the Wifi
 # iwctl
