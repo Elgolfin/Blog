@@ -4,11 +4,11 @@
 
 # Add the Wifi configuration
 # cat <<EOF >/var/lib/iwd/{{SSID}}\ Wifi.psk
-# [Security]  
+# [Security]
 # Passphrase={passphrase}
 
-# [Settings]  
-# AutoConnect=True 
+# [Settings]
+# AutoConnect=True
 # EOF
 
 # iwctl station wlan0 connect
