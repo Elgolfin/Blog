@@ -1,3 +1,25 @@
+#!/bin/bash
+
+# https://linuxhandbook.com/change-echo-output-color/
+WHITE='\033[1;37m'
+RED='\033[0;31m'
+NOCOLOR='\033[0m'
+
+### Partition the disks
+# $1 is the name of the disk passed in argument
+
+if [ -z "$1" ]
+then
+     echo ""
+     echo "*****************************************************************"
+     echo -e "${RED}You need to pass the hostname in parameter${NOCOLOR}"
+     echo "*****************************************************************"
+     echo ""
+     exit 1
+fi
+
+HOSTNAME=$1
+
 # Change the root password
 passwd
 
@@ -24,7 +46,7 @@ KEYMAP=us-acentos
 EOF
 
 # Set the hostname
-echo myhostname > /etc/hostname
+echo ${HOSTNAME} > /etc/hostname
 
 # Install the required network packages
 pacman --sync --refresh --noconfirm iwd

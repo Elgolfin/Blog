@@ -75,143 +75,46 @@ iwctl station wlan0 connect SSID\ S
 ### Configure the system clock
 
 ```bash
-# Set the timezone
-timedatectl set-timezone America/Toronto
-# Enable ntp
-timedatectl set-ntp true
-# Verify the date and time are correct
-timedatectl status
+./100-setup-pre-install.sh
 ```
 
 ### Partition the disks
+
+```bash
+### Part 0 ###
+# Fill the disk with random data (optional)
+# Replace sdx with the right disk label
+# shred --random-source=/dev/urandom --iterations=1 /dev/sdx
+
+### Part 1 (partitioning) ###
+# Replace sdx with the right disk label
+./105-setup-pre-install.sh sdx
+
+reboot
+
+### Part 2 (after reboot; encrypting and lvm + installing Arch Linux) ###
+# Replace sdx with the right disk label
+# Replace the second argument with the desired swap size (if ommited default is 1)
+./110-setup-pre-install.sh sdx 1
+```
 
 Also see:
 - [Arch Linux Setup with Disk Encryption](https://paedubucher.ch/articles/2020-09-26-arch-linux-setup-with-disk-encryption.html)
 - [How to use parted on Linux](https://linuxhint.com/parted_linux/)
 - [GNU Parted User Manual](https://www.gnu.org/software/parted/manual/html_node/index.html)
 
-```bash
-# Replace sda with the right disk label
-
-# Fill the disk with random data
-shred --random-source=/dev/urandom --iterations=1 /dev/sda # replace sda by the targerted disk
-
-# Create the partition table
-parted -s /dev/sda mklabel gpt
-# Create the efi/boot partition
-parted -s /dev/sda mkpart efi fat32 1MiB 257MiB # Leave a gap of 1 MB at the beginning, so no matter what block size my SSD uses, the boot partition will always be properly aligned
-parted -s /dev/sda set 1 esp on # The esp flag identifies the partition as a UEFI system partition
-# Format the partition
-mkfs.fat -F 32 /dev/sda1
-
-# Create the encrypted partition (where all other partitions will be located)
-parted -s /dev/sda mkpart cryptlvm 257MiB '100%'
-
-# At this point, it might be needed to reboot so that the kernel is aware of the changes
-
-# Setup the encryption on the partition
-cryptsetup luksFormat /dev/sda2 # YES, then enter the passphrase
-# Open the partition
-cryptsetup open /dev/sda2 cryptlvm
-# Create the physical volumne
-pvcreate /dev/mapper/cryptlvm
-# Create the volume group
-vgcreate volgrp /dev/mapper/cryptlvm
-# Create and format the remaining partitions
-lvcreate -L 16G volgrp -n swap
-lvcreate -l '100%FREE' volgrp -n root
-mkswap /dev/volgrp/swap
-mkfs.ext4 -F /dev/volgrp/root
-# Mount the partitions
-mount /dev/volgrp/root /mnt
-# Mount the boot partition
-# Also see: https://serverfault.com/questions/751113/mount-point-does-not-exist-despite-creating-it
-mkdir /mnt/boot
-mount /dev/sda1 /mnt/boot
-
-swapon /dev/volgrp/swap
-
-mount -l # Make sure the efi/boot partition is well-mounted
-```
-
-### Install **arch**linux
-
-```bash
-pacstrap /mnt base linux linux-firmware intel-ucode lvm2 vim
-```
-
 ### Configure the system
 
 ```bash
-# Generate the fstab file
-genfstab -U /mnt >> /mnt/etc/fstab
-
 # Change root into the new system
 arch-chroot /mnt
+# Replace hostname with the desired hostname
+./300-setup-post-install.sh hostname
 
-# Change the root password
-passwd
+reboot
 
-# Configure the Time Zone
-ln -sf /usr/share/zoneinfo/America/Toronto /etc/localtime
-timedatectl set-ntp true
-hwclock --systohc
-
-# Edit /etc/locale.gen and uncomment en_US.UTF-8 UTF-8 and other needed locales.
-vim /etc/locale.gen
-
-# Generate the locales
-locale-gen
-
-# Set the LANG variable
-vim /etc/locale.conf
-```
-> LANG=en_CA.UTF-8
-
-```bash
-# Set the keyboard layout
-vim /etc/vconsole.conf
-```
-> KEYMAP=us-acentos
-
-```bash
-# Set the hostname
-echo myhostname > /etc/hostname
-
-# Install the required network packages
-pacman --sync --refresh --noconfirm iwd
-cat <<EOF >/etc/iwd/main.conf
-[General]
-EnableNetworkConfiguration=true
-EOF
-systemctl enable --now iwd systemd-resolved systemd-networkd
-iwctl # Manually configure the Wifi
-
-# Configure the bootloader
-systemd-machine-id-setup
-bootctl --path=/boot install
-bootctl status # Check if everything is fine
-uuid=$(blkid --match-tag UUID -o value /dev/sda2)
-
-cat <<EOF >/boot/loader/entries/arch.conf
-title   Arch Linux
-linux   /vmlinuz-linux
-initrd  /intel-ucode.img
-initrd  /initramfs-linux.img
-options cryptdevice=UUID=${uuid}:cryptlvm root=/dev/volgrp/root quiet splash rw
-EOF
-
-cat <<EOF >/boot/loader/loader.conf
-default arch
-timeout 0
-editor  0
-EOF
-
-# Change the Ramdisk Environment configuration
-sed -i -r 's/^HOOKS.+$/HOOKS=(base udev autodetect keyboard modconf block encrypt lvm2 filesystems fsck)/g' /etc/mkinitcpio.conf
-
-# Create the Ramdisk Environment
-mkinitcpio -P
+# Configure network and wifi (if needed)
+./500-setup-first-boot.sh
 ```
 
 [![creativecommons image](https://i.creativecommons.org/l/by-sa/4.0/80x15.png)](http://creativecommons.org/licenses/by-sa/4.0/)
