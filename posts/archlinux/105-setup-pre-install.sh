@@ -40,7 +40,7 @@ parted -s /dev/${DISK_LABEL} set 1 esp on # The esp flag identifies the partitio
 mkfs.fat -F 32 /dev/${DISK_LABEL}1
 
 # Create the encrypted partition (where all other partitions will be located)
-parted -s /dev/sda mkpart cryptlvm 512MiB '100%'
+parted -s /dev/${DISK_LABEL} mkpart cryptlvm 512MiB '100%'
 
 # At this point, it might be needed to reboot so that the kernel is aware of the changes
 echo "*****************************************************************"
