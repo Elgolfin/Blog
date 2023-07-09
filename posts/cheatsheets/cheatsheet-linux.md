@@ -1,5 +1,10 @@
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License ](http://creativecommons.org/licenses/by-sa/4.0/).
 
+# Archlinux Boot Rescue Mode
+
+1. Select a boot option and press e
+2. Add init=/bin/bash at the end of the line and press enter
+
 # SMB Mount4 po
 
 1. cd /mnt
